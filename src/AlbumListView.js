@@ -1,6 +1,7 @@
 import React from 'react';
-import { CameraRoll, Image, FlatList, Platform, StyleSheet, Text, TouchableOpacity, View, Dimensions } from 'react-native';
+import { Image, FlatList, Platform, StyleSheet, Text, TouchableOpacity, View, Dimensions } from 'react-native';
 import NaviBar, { getSafeAreaInset } from 'react-native-pure-navigation-bar';
+import CameraRoll from "@react-native-community/cameraroll";
 import PageKeys from './PageKeys';
 
 export default class extends React.PureComponent {
